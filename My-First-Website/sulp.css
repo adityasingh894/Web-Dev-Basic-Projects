@@ -1,0 +1,50 @@
+body,html{
+	height: 100%;
+}
+body{
+	display: flex;
+	flex-flow: column wrap;
+	align-content: center;
+	justify-content: center;
+}
+.bg{
+	background-image: url(http://waraqh.com/wp-content/uploads/2018/04/black-background-wallpaper-high-resolution-backgrounds-in-fhd-for-android-desktop-of-mobile-phones.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.h{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 2.3em;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	transition: color 0.3s ease-in-out; 
+}
+.h:hover{
+	color: #2DE339;
+	cursor: pointer;
+}
+div{
+	display:flex;
+	justify-content: center;
+}
+.btn{
+	background-color: #00EFEF;
+	display: inline-block;
+	padding: 15px 50px 15px 50px;
+	border: orange;
+	border-radius: 30px; 
+	transition: background 0.3s ease-in-out;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 1.5em;
+}
+.btn:hover{
+	background-color: #3C6AD3;
+	transform: scale(.9);
+	cursor: pointer;
+}
